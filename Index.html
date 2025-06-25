@@ -1,0 +1,106 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body class="bg-[#fbfbf8] font-sans">
+    <!-- Logo -->
+    <header class="py-6 text-center">
+      <img src="Logo.jpeg" alt="Sigillaria Logo" class="mx-auto w-32 h-auto" />
+    </header>
+
+    <main class="relative flex flex-col items-center">
+      <!-- Hero Section -->
+      <section class="w-full max-w-screen-lg px-4">
+        <div class="rounded-xl overflow-hidden bg-cover bg-center min-h-[450px] flex flex-col justify-end p-6"
+             style="background-image: url('Beach View.png');">
+          <h1 class="text-white text-4xl font-black leading-tight tracking-wide md:text-5xl">
+            YOUR PERFECT SUMMER ESCAPE IS HERE
+          </h1>
+          <p class="text-white mt-2 text-base md:text-lg">
+            Crystal waters, golden sunsets, and memories waiting to be made—your dream vacation is just a click away.
+          </p>
+          <button
+            class="mt-4 inline-block bg-[#edd58c] text-[#1a170e] rounded-xl px-6 py-3 font-bold tracking-wide"
+          >
+            Book Now
+          </button>
+        </div>
+      </section>
+
+      <!-- Features Checklist -->
+      <section class="mt-8 w-full max-w-screen-md px-4">
+        <h2 class="text-[#1a170e] text-2xl font-bold mb-2">CURATED BY Sigillaria LTD</h2>
+        <p class="text-[#1a170e] mb-4 text-center">HOW TO SECURE YOUR SLICE OF PARADISE</p>
+        <ul class="space-y-3">
+          <li class="flex items-center">
+            <input type="checkbox" class="h-5 w-5 text-[#edd58c] rounded mr-3" />
+            <span class="text-[#1a170e]">Private beach access</span>
+          </li>
+          <li class="flex items-center">
+            <input type="checkbox" class="h-5 w-5 text-[#edd58c] rounded mr-3" />
+            <span class="text-[#1a170e]">Luxury amenities</span>
+          </li>
+          <li class="flex items-center">
+            <input type="checkbox" class="h-5 w-5 text-[#edd58c] rounded mr-3" />
+            <span class="text-[#1a170e]">Unforgettable views</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Slide Show -->
+      <section class="mt-8 w-full max-w-screen-lg overflow-x-auto px-4">
+        <div class="flex space-x-6">
+          <div class="min-w-[250px] rounded-lg overflow-hidden">
+            <img src="Beach View.png" alt="Beach View" class="w-full h-auto object-cover" />
+            <p class="mt-2 text-[#1a170e] text-center font-medium">Beach View</p>
+          </div>
+          <div class="min-w-[250px] rounded-lg overflow-hidden">
+            <img src="Modern living room.png" alt="Modern Living Room" class="w-full h-auto object-cover" />
+            <p class="mt-2 text-[#1a170e] text-center font-medium">Living Room</p>
+          </div>
+          <div class="min-w-[250px] rounded-lg overflow-hidden">
+            <img src="Interior.png" alt="Interior" class="w-full h-auto object-cover" />
+            <p class="mt-2 text-[#1a170e] text-center font-medium">Interior</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Booking Links -->
+      <section class="mt-12 w-full max-w-screen-md px-4 text-center">
+        <h2 class="text-[#1a170e] text-2xl font-bold mb-4">READY TO BOOK? WE’RE ON YOUR FAVORITE PLATFORM</h2>
+        <div class="flex justify-center gap-4">
+          <a href="https://airbnb.com/h/odyssea" target="_blank"
+             class="flex-1 max-w-xs bg-[#edd58c] text-[#1a170e] rounded-xl py-3 font-bold">
+            Airbnb
+          </a>
+          <a href="https://booking.com" target="_blank"
+             class="flex-1 max-w-xs bg-[#f2f0e8] text-[#1a170e] rounded-xl py-3 font-bold">
+            Booking.com
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 bg-[#fbfbf8] text-center py-8">
+      <div class="flex justify-center space-x-6 mb-4">
+        <!-- Social Icons ... -->
+      </div>
+      <p class="text-[#948351] text-sm">© 2024 Sigillaria LTD</p>
+    </footer>
+  </body>
+</html>
